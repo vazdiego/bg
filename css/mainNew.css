@@ -1,0 +1,1003 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*===RESET===*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+}
+
+.bg {
+    background-image: url(../img/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 318px;
+    height: 319px;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 120px;
+    height: 18px;
+}
+
+.main-img {
+    display: flex;
+}
+
+.img {
+    width: 252px;
+    height: 179px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2 0px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border-style: none;
+    box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+}
+
+.social {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+.fa-brands {
+    margin-right: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+a:link,
+a:visited {
+
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+@media screen and (min-width: 375px) {
+    .bg {
+        background-image: url(../img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 375px;
+        height: 374px;
+
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 40px;
+        width: 120px;
+        height: 18px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 296px;
+        height: 209px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.6;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 568px) {
+
+    .bg {
+        background-image: url(../img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 568px;
+        height: 320px;
+        position: relative;
+
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 30px;
+        width: 120px;
+        height: 18px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 420px;
+        height: 302px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        justify-content: space-evenly;
+    }
+
+    .fa-brands {
+        margin-right: 10px;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    a:link,
+    a:visited {
+
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .bg {
+        background-image: url(../img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 667px;
+        height: 374px;
+
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 100px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 480px;
+        height: 345px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.6;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bg {
+        background-image: url(../img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 768px;
+        height: 460px;
+
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 100px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 600px;
+        height: 431px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.6;
+        padding: 20px;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 350px;
+        height: 68px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+        font-size: 22px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        justify-content: space-evenly;
+    }
+
+    .fa-brands {
+        margin-right: 15px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    a:link,
+    a:visited {
+
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .bg {
+        background-image: url(../img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 900px;
+        height: 546px;
+
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 110px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 700px;
+        height: 506px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        text-align: center;
+        line-height: 1.6;
+        padding: 25px;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 350px;
+        height: 68px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+        font-size: 22px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        justify-content: space-evenly;
+    }
+
+    .fa-brands {
+        margin-right: 15px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    a:link,
+    a:visited {
+
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bg {
+        background-image: url(../img/bg-desktop.svg);
+        width: 1024px;
+        height: 768px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 50px;
+        width: 145px;
+        height: 29px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 493px;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-left: 30px;
+        margin-top: 150px;
+    }
+
+    section {
+        position: relative;
+    }
+
+    .container {
+        width: 1024px;
+        height: 700px;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .content {
+        width: 450px;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 141px;
+        height: 40px;
+        border-radius: 20px;
+        display: block;
+        margin-left: 0;
+        margin-top: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+    }
+
+    .social {
+        position: absolute;
+        margin: auto;
+        right: 30px;
+        bottom: 5px;
+        top: 365px;
+        left: 650px;
+    }
+
+    .fa-brands {
+        margin-right: 15px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    
+    .bg {
+        background-image: url(../img/bg-desktop.svg);
+        width: 1050px;
+        height: 638px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 110px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 840px;
+        height: 590px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+
+    section {
+        position: relative;
+    }
+    
+
+    .container {
+        width: 1050px;
+        height: 700px;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 0;
+    }
+
+    .content {
+        width: 1050px;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 700px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.6;
+        padding: 25px;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 350px;
+        height: 68px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+        font-size: 22px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        justify-content: space-evenly;
+        top: 1300px;
+        left: 60px;
+    }
+
+    .fa-brands {
+        margin-right: 20px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    a:link,
+    a:visited {
+
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .bg {
+        background-image: url(../img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1440px;
+        height: 900px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 90px;
+        width: 200px;
+        height: 35px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 693px;
+        height: 493px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-left: 80px;
+        margin-top: 150px;
+    }
+
+    section {
+        position: relative;
+    }
+
+    .container {
+        width: 1440px;
+        height: 900px;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .content {
+        width: 450px;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: 90px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 198px;
+        height: 57px;
+        border-radius: 20px;
+        display: block;
+        margin-left: 0;
+        margin-top: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+    }
+
+    .social {
+        position: absolute;
+        margin: auto;
+        right: 50px;
+        bottom: 20px;
+        top: 430px;
+        left: 1100px;
+    }
+
+    .fa-brands {
+        margin-right: 15px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1680px) {
+    .bg {
+        background-image: url(../img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1680px;
+        height: 1050px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 100px;
+        width: 230px;
+        height: 40px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 811px;
+        height: 578px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-left: 80px;
+        margin-top: 120px;
+    }
+
+    section {
+        position: relative;
+    }
+
+    .container {
+        width: 1440px;
+        height: 900px;
+        display: flex;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .content {
+        width: 450px;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: 50px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 198px;
+        height: 57px;
+        border-radius: 20px;
+        display: block;
+        margin-left: 0;
+        margin-top: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+        font-size: 15px;
+    }
+
+    .social {
+        position: absolute;
+        left: 1400px;
+        top: 900px;
+        bottom: 330px;
+        right: 0;
+        width: 200px;
+        height: 50px;
+    }
+
+    .fa-brands {
+        margin-right: 15px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .bg {
+        background-image: url(../img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1920px;
+        height: 1166px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 90px;
+        width: 230px;
+        height: 48px;
+    }
+
+    .main-img {
+        display: flex;
+    }
+
+    .img {
+        width: 811px;
+        height: 578px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+
+    section {
+        position: relative;
+    }
+
+    .container {
+        width: 1920px;
+        height: 700px;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+    }
+
+    .content {
+        width: 800px;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: 50px;
+        top: 1000px;
+        left: 1200px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 150px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    button {
+        color: hsl(257, 40%, 49%);
+        width: 198px;
+        height: 57px;
+        border-radius: 20px;
+        display: block;
+        margin-left: 0;
+        margin-top: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px hsl(257, 40%, 49%);
+    }
+
+    .social {
+        position: absolute;
+        left: 450px;
+        bottom: 20px;
+        right: 0;
+        top: 370px;
+        left: 900px;
+    }
+
+    .fa-brands {
+        margin-right: 15px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
